@@ -16,10 +16,10 @@ Sets the SSID and password for a Daikin unit and optionally reboots the device.
 ```
 
 #### Options
-`--dry-run`	         - Print actions without making any API requests
-`--skip-reboot`	     - Skip rebooting the unit after config is applied
-`--set-pairing-mode` - Set link mode to 0 (pairing mode; no WiFi join)
-`--set-wifi-mode`	 - Set link mode to 1 (normal operation with WiFi)
+- `--dry-run`	         - Print actions without making any API requests
+- `--skip-reboot`	     - Skip rebooting the unit after config is applied
+- `--set-pairing-mode` - Set link mode to 0 (pairing mode; no WiFi join)
+- `--set-wifi-mode`	 - Set link mode to 1 (normal operation with WiFi)
 
 ### `dump-wifi.sh`
 Fetches and displays the current WiFi settings from the unit (SSID, encoded password, link mode).
@@ -37,10 +37,10 @@ Sets the unit’s link mode (whether it should attempt to join WiFi or stay in p
 ```
 
 #### Options
-`--dry-run`	         - Print actions without making any API requests
-`--skip-reboot`      - Skip rebooting the device
-`--set-pairing-mode` - Set link mode to 0 (will not join WiFi)
-`--set-wifi-mode`    - Set link mode to 1 (attempts WiFi connection)
+- `--dry-run`	         - Print actions without making any API requests
+- `--skip-reboot`      - Skip rebooting the device
+- `--set-pairing-mode` - Set link mode to 0 (will not join WiFi)
+- `--set-wifi-mode`    - Set link mode to 1 (attempts WiFi connection)
 
 ## Environment Files
 ### `wifi.env`
